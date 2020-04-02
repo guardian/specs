@@ -19,7 +19,7 @@ DESC
   spec.license      = { :type => "Apache", :file => "LICENSE" }
   spec.author       = { "Sophie Lambrakis" => "ios@theguardian.com" }
   spec.platform     = :ios, "7.0"
-  spec.source       = { :git => "https://github.com/guardian/googleads-consent-sdk-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/guardian/googleads-consent-sdk-ios.git", :tag => "v#{spec.version}" }
   spec.source_files  = "PersonalizedAdConsent/**/*.{h,m}"
 
 end
